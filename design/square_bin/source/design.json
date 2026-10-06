@@ -1,0 +1,1310 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "body",
+      "label": "body",
+      "cells": [
+        {
+          "id": "body",
+          "target": "body",
+          "order": 0,
+          "path": "design/square_bin/source/parts/body/000-body.py",
+          "sha256": "f4c879db86aada36055b4653b0d796b721449f5df251817d1eaabe363dc4bff9"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rim",
+      "label": "rim",
+      "cells": [
+        {
+          "id": "rim",
+          "target": "rim",
+          "order": 0,
+          "path": "design/square_bin/source/parts/rim/000-rim.py",
+          "sha256": "456766510ae5e9b83d575fb94747f102b75a413bcf23c52dc419a6408720a1e9"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "base",
+      "label": "base",
+      "cells": [
+        {
+          "id": "base",
+          "target": "base",
+          "order": 0,
+          "path": "design/square_bin/source/parts/base/000-base.py",
+          "sha256": "437287392f97ea893037496e0a6fb42b8a1c864146eafdcd3f7e07cf28a146ac"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "posts",
+      "label": "posts",
+      "cells": [
+        {
+          "id": "posts",
+          "target": "posts",
+          "order": 0,
+          "path": "design/square_bin/source/parts/posts/000-posts.py",
+          "sha256": "e0c47a688dd12d8858142658da9dffe379b4c23f8a1365f08a5f0ba4d9f64210"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "trim",
+      "label": "trim",
+      "cells": [
+        {
+          "id": "trim",
+          "target": "trim",
+          "order": 0,
+          "path": "design/square_bin/source/parts/trim/000-trim.py",
+          "sha256": "f3639f1c24415714a0ba0a1a73691046f8573b3a4f7a62aaac502cf64d5a6da9"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "smile_face",
+      "label": "smile_face",
+      "cells": [
+        {
+          "id": "smile_face",
+          "target": "smile_face",
+          "order": 0,
+          "path": "design/square_bin/source/parts/smile_face/000-smile_face.py",
+          "sha256": "bacc4787b844ce6a0677924111664e174c8b112933ab099346a3ec01b62852ce"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "flower",
+      "label": "flower",
+      "cells": [
+        {
+          "id": "flower",
+          "target": "flower",
+          "order": 0,
+          "path": "design/square_bin/source/parts/flower/000-flower.py",
+          "sha256": "4b8dc5952f59af25b7e75fa3ac4283fcc94d818828f5f33d0f9dc5ef05fcb799"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mushroom",
+      "label": "mushroom",
+      "cells": [
+        {
+          "id": "mushroom",
+          "target": "mushroom",
+          "order": 0,
+          "path": "design/square_bin/source/parts/mushroom/000-mushroom.py",
+          "sha256": "a0bd1a1d408cce2d2acd038844dc9a75396a19a364be7e49c12daae4f10bca74"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "star",
+      "label": "star",
+      "cells": [
+        {
+          "id": "star",
+          "target": "star",
+          "order": 0,
+          "path": "design/square_bin/source/parts/star/000-star.py",
+          "sha256": "6ae2c48ec1de77dc998fed602a1cef836eb6d205847c38c355118eec6460c5da"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "corners",
+      "label": "corners",
+      "cells": [
+        {
+          "id": "corners",
+          "target": "corners",
+          "order": 0,
+          "path": "design/square_bin/source/parts/corners/000-corners.py",
+          "sha256": "0420d4b040d55f3cd9027409be086e39d226472f89cce79a97224b1396e3f16b"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "cream_outer_shell",
+      "target": "body",
+      "label": "Cream upper outer shell",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "3e18b009fb64749fd49f7a142302650122e3901510b18825ed1b4c55e7e9305a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "shell",
+      "target": "body",
+      "label": "Cream inner box",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "a4befaa6d7c3e7346414f0c0beb080453d9a0f417134d4f4421a551aa3dc43b1",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pink_rim",
+      "target": "rim",
+      "label": "Rounded pink top rim",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "27aa99158af11d78323615577b57d53ea1e462c635b09f34d10e1d5e6725c01a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "brown_base",
+      "target": "base",
+      "label": "Brown brick cladding",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "7af88b5d72b8bf4b15250316dc00a253bd6862052f2180c52eb50f481cbfa738",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "blue_posts",
+      "target": "posts",
+      "label": "Inset blue corner strips",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "db8457ab3d5f1d7116341ffbb1d8b7bac3e73f61252ea64ddc41c2659a1f91e5",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "green_trim",
+      "target": "trim",
+      "label": "Continuous scalloped trim",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "e499c03df019ca3ba91874d4e0e01a148375b77ed1dee86a6037b21d9ecea539",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_blue_pin",
+      "target": "smile_face",
+      "label": "Blue plaque pin",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "9e5449ad3ed8bda45f6ea4018769e3d43eeb089c9da9d1249f53fff9cb73e2a3",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_border",
+      "target": "smile_face",
+      "label": "Rounded gold plaque rim",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "28ce08c205640a3e99381a73c1ce8aca1f4e0f6e5bed418d86970d2280b0b71b",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_cheeks",
+      "target": "smile_face",
+      "label": "Round pink cheeks",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "0eda3d3179f4bdf5ee457aa693e6179264ea45469513c65a80874ff1cc579be3",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_features",
+      "target": "smile_face",
+      "label": "Rounded heart eyes and smile",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "d4cece6b3f03e67c4fc19a34a542dea7aa9cea7d2b3b53a127c6cf9fd157f680",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_orange_pin",
+      "target": "smile_face",
+      "label": "Orange plaque pin",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "4d13e8d1083f20c70382464a77ad68a52f4a80d53d3118f229f24d2632bd07ae",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_panel",
+      "target": "smile_face",
+      "label": "Soft yellow face plaque",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "e9996c631f7b97ae248472d58a198bb145140ba1dda045dd26d4b90683c13da4",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "flower_center",
+      "target": "flower",
+      "label": "Inset yellow flower centre",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "aaf8541b946b0caf4fa691eca8e43a7b2ea4c2733561a5f6471d33722fb40ec0",
+      "transform": {
+        "positionMm": [
+          6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "flower_petals",
+      "target": "flower",
+      "label": "Single-piece five-petal flower",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "6ab149f9e89efbbf8fb9094caff3d09d3600e7b26e209f082f1c243442f74a1e",
+      "transform": {
+        "positionMm": [
+          6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_blue_dots",
+      "target": "mushroom",
+      "label": "Three rounded blue dots",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "b21968dab45597bfbc51fa33714a9294b6239a06b6781f211e712cb55226a5ee",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_cap",
+      "target": "mushroom",
+      "label": "Smooth red mushroom cap",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "0a15b154003cfd0528de21297b3ff799c2da3eb7e9deb6461b0ca673f527cfa3",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_cap_outline",
+      "target": "mushroom",
+      "label": "Rounded pink cap outline",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "fa9f8cf7589a09b5f341860b9010f6d293771693c5af4266f99798ecfefa6a69",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_gill",
+      "target": "mushroom",
+      "label": "Cream oval underside",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "49edb394c0de8cc72662514e3ef60f2def7d30f746802dc4834c3db5a4c51dc3",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_orange_dot",
+      "target": "mushroom",
+      "label": "Rounded orange dot",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "f9c9806e224fd5ae18d701b968b36c373e15cd67192363c1eac30d62d73b4ea2",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_spots",
+      "target": "mushroom",
+      "label": "Three rounded white spots",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "2657fe30651d0a303822074f47148b03b0eea051bb692dfd29b2bea5cb5124ab",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_stars",
+      "target": "mushroom",
+      "label": "Two soft yellow stars",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "cffe801043216effd48a8ee90db5904c5de80808d26ca0bea3d78fa184cc64d1",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_stem",
+      "target": "mushroom",
+      "label": "Flared rounded yellow stem",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "b3f79f7fd30bb7fa21602e0418920dd9fa394637afe080a27c9ba9df1ea1fc65",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_stem_border",
+      "target": "mushroom",
+      "label": "Rounded pink stem outline",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "53fa3da08839fb669fb66acdf69f440ef2b3b2b01d5cb079d59cd42e05e6d889",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_body",
+      "target": "star",
+      "label": "Soft rounded yellow star",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "4eb32dbd2c82ee6ef075923adb5d571535f247e5d6595bcc609d6aafb7eb5260",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_face",
+      "target": "star",
+      "label": "Oval eyes and fine smile",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "4a76efdfd3189bb6c925075c433aaf1d1918715ed29f704e2ec43243db3481e0",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_gold_confetti",
+      "target": "star",
+      "label": "Yellow confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "be51629c589132454bb39a30bf965d77a485606416e280c8b3d392367fcb7542",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_green_confetti",
+      "target": "star",
+      "label": "Green confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "5e8bf866c56f47b990ac67d990f33cebdf8ad89da64a17fded97333ada1f1188",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_outline",
+      "target": "star",
+      "label": "Fine golden star edge",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "318677ae01d48dbcb599ea69d2868f82e6ab123ed02e08984dbcf11a252563c7",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_pink_confetti",
+      "target": "star",
+      "label": "Pink confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "05d52b627d85e3698bfbe9e784ac55727460e0aebac27a59099d190e0ff737d3",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_sprinkles",
+      "target": "star",
+      "label": "Blue confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "9f5083e44cbbce236f46a8a11b66d8f1365711b85be97400dcd6131505335c60",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "pink_corners",
+      "target": "corners",
+      "label": "Rounded pink corner guards",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "f3102586051dea8af65e7c43e94e47670044c00f049bd20ce95377685bdec8a0",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-06T11:37:30.877Z",
+  "parameters": {
+    "body": {
+      "bin_width": 150,
+      "bin_depth": 150,
+      "bin_height": 180,
+      "shell_wall": 13,
+      "shell_floor": 8,
+      "body_width": 158,
+      "body_bottom": 0,
+      "body_top": 162,
+      "outer_corner_radius": 22,
+      "floor_cove_radius": 3,
+      "shell_groove_width": 2,
+      "shell_groove_depth": 0.9,
+      "shell_groove_offset": 27,
+      "shell_groove_bottom": 43,
+      "shell_groove_top": 162,
+      "shell_tongue_height": 9,
+      "shell_contact_radius": 3,
+      "shell_side_groove_offset": 57,
+      "shell_side_groove_width": 1.6,
+      "shell_side_groove_depth": 0.75,
+      "shell_inner_contact_radius": 1,
+      "shell_corner_insert_depth": 4,
+      "shell_corner_insert_bottom": 43,
+      "shell_corner_insert_top": 148,
+      "shell_corner_insert_angle_deg": 45,
+      "shell_corner_contact_radius": 1,
+      "shell_outer_start_z": 43,
+      "shell_split_fraction": 0.5,
+      "inner_box_width": 145,
+      "inner_box_depth": 145,
+      "inner_box_wall": 6.5,
+      "inner_box_floor": 8,
+      "inner_box_top": 171,
+      "body_outward_growth": 1,
+      "body_inward_growth": 1,
+      "cream_outer_shell_clearance": 0.2,
+      "shell_guard_depth": 4,
+      "shell_guard_clearance": 0.2,
+      "shell_guard_bottom": 148,
+      "shell_guard_top": 162,
+      "cream_outer_shell_guard_depth": 4,
+      "cream_outer_shell_guard_clearance": 0.2,
+      "cream_outer_shell_guard_bottom": 148,
+      "cream_outer_shell_guard_top": 162,
+      "cream_outer_shell_guard_extension": 8,
+      "cream_outer_shell_guard_inward_growth": 1.5
+    },
+    "rim": {
+      "rim_width": 158,
+      "rim_opening": 132,
+      "rim_height": 18,
+      "rim_corner_radius": 22,
+      "rim_inner_corner_radius": 9,
+      "rim_lip_radius": 3,
+      "rim_inner_lip_radius": 1.5,
+      "rim_socket_depth": 9,
+      "rim_contact_radius": 1,
+      "rim_body_contact_radius": 3,
+      "rim_outward_growth": 1,
+      "rim_inward_growth": 1
+    },
+    "base": {
+      "base_width": 158,
+      "base_height": 35,
+      "base_floor": 4,
+      "base_opening": 150,
+      "base_corner_radius": 22,
+      "base_outward_growth": 1,
+      "base_brick_rows": 3,
+      "base_brick_pitch": 28,
+      "base_joint_width": 1.2,
+      "base_joint_depth": 0.8,
+      "base_joint_edge_radius": 0.35,
+      "base_brick_outline_radius": 2,
+      "base_body_nominal_width": 145,
+      "base_body_nominal_radius": 15.5,
+      "base_body_clearance": 0.2,
+      "base_grip_rib_width": 6,
+      "base_grip_rib_bottom": 5,
+      "base_grip_rib_top": 30,
+      "base_grip_interference": 0.1,
+      "base_grip_lead_height": 2,
+      "base_guard_depth": 4,
+      "base_guard_clearance": 0.2,
+      "base_guard_height": 22,
+      "brown_base_guard_depth": 4,
+      "brown_base_guard_clearance": 0.2,
+      "brown_base_guard_height": 22,
+      "brown_base_guard_inward_growth": 1.5
+    },
+    "posts": {
+      "post_width": 22,
+      "post_bottom": 43,
+      "post_top": 148,
+      "post_offset": 68,
+      "post_host_width": 158,
+      "post_host_radius": 22,
+      "post_insert_depth": 4,
+      "post_groove_width": 1.6,
+      "post_groove_depth": 0.75,
+      "post_arc_angle_deg": 45,
+      "post_contact_radius": 1,
+      "post_outward_growth": 1,
+      "blue_posts_guard_extension": 8
+    },
+    "trim": {
+      "trim_outer": 162,
+      "trim_inner": 150,
+      "trim_z": 35,
+      "trim_height": 8,
+      "scallop_radius": 9.5,
+      "scallop_pitch": 16,
+      "trim_edge_radius": 0.8,
+      "trim_base_fit_width": 160,
+      "trim_base_fit_radius": 23,
+      "trim_base_fit_top": 35,
+      "trim_outer_corner_radius": 24,
+      "trim_inner_corner_radius": 18,
+      "trim_waves_per_side": 9,
+      "trim_scallop_drop": 5.5,
+      "green_trim_lower_edge_radius": 0.8
+    },
+    "smile_face": {
+      "face_width": 84,
+      "face_height": 69.2,
+      "face_center_z": 105,
+      "face_relief": 2.4,
+      "eye_spacing": 32.8,
+      "face_panel_relief": 2,
+      "face_edge_radius": 0.8,
+      "face_eye_z": 102.5,
+      "cheek_radius": 5.2,
+      "smile_face_surface_shift": 5,
+      "face_border_corner_radius": 10,
+      "face_panel_inset": 3.5,
+      "face_features_heart_width": 16.3,
+      "face_features_heart_height": 13.7,
+      "face_features_eye_relief": 1.5,
+      "face_features_eye_edge_radius": 0.75,
+      "face_features_mouth_width": 10.4,
+      "face_features_mouth_dip": 2.7,
+      "face_features_mouth_end_z": 93.5,
+      "face_features_mouth_stroke": 1.1,
+      "face_features_mouth_relief": 1.1,
+      "face_features_mouth_edge_radius": 0.4,
+      "face_cheeks_x": 26.2,
+      "face_cheeks_z": 92.1,
+      "face_cheeks_relief": 1.3,
+      "face_cheeks_edge_radius": 0.5,
+      "face_pins_x": 30,
+      "face_pins_z": 128.5,
+      "face_pins_radius": 4.4,
+      "face_pins_relief": 1.4,
+      "face_pins_edge_radius": 0.5,
+      "face_features_heart_fullness": 0.08
+    },
+    "flower": {
+      "flower_radius": 21,
+      "petal_width": 23,
+      "petal_height": 28,
+      "flower_z": 105,
+      "flower_depth": 2.5,
+      "petal_outline": 1.5,
+      "flower_center_radius": 10,
+      "petal_edge_radius": 1.2,
+      "flower_surface_shift": 5,
+      "flower_outlines_depth": 1.2,
+      "flower_outlines_edge_radius": 0.5,
+      "flower_center_depth": 2.8,
+      "flower_center_edge_radius": 1,
+      "flower_petals_shoulder": 0.12,
+      "flower_petals_valley_radius": 20,
+      "flower_petals_valley_handle": 4,
+      "flower_center_socket_depth": 1,
+      "flower_center_socket_clearance": 0.2,
+      "flower_petals_root_web_margin": 0.5
+    },
+    "mushroom": {
+      "mushroom_width": 70,
+      "mushroom_center_z": 109,
+      "mushroom_depth": 3.8,
+      "mushroom_edge_radius": 1.2,
+      "mushroom_outline": 2,
+      "mushroom_stem_width": 34,
+      "mushroom_star_radius": 8.5,
+      "mushroom_surface_shift": 5,
+      "mushroom_cap_outline_depth": 1,
+      "mushroom_cap_outline_edge_radius": 0.5,
+      "mushroom_stem_height": 26,
+      "mushroom_stem_z": 82.6,
+      "mushroom_stem_depth": 2.4,
+      "mushroom_stem_edge_radius": 1.2,
+      "mushroom_gill_width": 53.8,
+      "mushroom_gill_height": 9.2,
+      "mushroom_gill_z": 94.3,
+      "mushroom_gill_depth": 1.2,
+      "mushroom_gill_edge_radius": 0.5,
+      "mushroom_spots_depth": 1.2,
+      "mushroom_spots_edge_radius": 1,
+      "mushroom_stars_depth": 1.5,
+      "mushroom_stars_corner_radius": 2.2,
+      "mushroom_stars_edge_radius": 1.2,
+      "mushroom_spots_left_x": -24,
+      "mushroom_spots_left_z": 110.5,
+      "mushroom_spots_left_radius_x": 4.8,
+      "mushroom_spots_left_radius_z": 7.1,
+      "mushroom_spots_left_tilt": -18,
+      "mushroom_spots_centre_x": 0.9,
+      "mushroom_spots_centre_z": 117.4,
+      "mushroom_spots_centre_radius_x": 11.3,
+      "mushroom_spots_centre_radius_z": 10.4,
+      "mushroom_spots_centre_tilt": 0,
+      "mushroom_spots_right_x": 24,
+      "mushroom_spots_right_z": 110.5,
+      "mushroom_spots_right_radius_x": 4.8,
+      "mushroom_spots_right_radius_z": 7.1,
+      "mushroom_spots_right_tilt": 18,
+      "mushroom_stars_left_x": -40.6,
+      "mushroom_stars_left_z": 135.6,
+      "mushroom_stars_right_x": 36.9,
+      "mushroom_stars_right_z": 136.9,
+      "mushroom_blue_dots_depth": 1.5,
+      "mushroom_blue_dots_edge_radius": 0.9,
+      "mushroom_blue_dots_lower_left_x": -42.1,
+      "mushroom_blue_dots_lower_left_z": 76.2,
+      "mushroom_blue_dots_lower_left_radius": 2.3,
+      "mushroom_blue_dots_lower_small_x": -29.7,
+      "mushroom_blue_dots_lower_small_z": 70.6,
+      "mushroom_blue_dots_lower_small_radius": 1.3,
+      "mushroom_blue_dots_upper_small_x": -17,
+      "mushroom_blue_dots_upper_small_z": 144,
+      "mushroom_blue_dots_upper_small_radius": 0.9,
+      "mushroom_orange_dot_x": 40.9,
+      "mushroom_orange_dot_z": 77.7,
+      "mushroom_orange_dot_radius": 2.3,
+      "mushroom_orange_dot_depth": 1.5,
+      "mushroom_orange_dot_edge_radius": 1,
+      "mushroom_cap_inner_edge_radius": 0.8,
+      "mushroom_blue_dots_upper_small_edge_radius": 0.8,
+      "mushroom_cap_crown_lift": 2
+    },
+    "star": {
+      "star_outer_radius": 32,
+      "star_inner_radius": 18,
+      "star_center_z": 104,
+      "star_depth": 3,
+      "star_corner_radius": 3.4,
+      "star_outline_width": 0.6,
+      "star_eye_radius": 3.7,
+      "star_surface_shift": 5,
+      "star_outline_depth": 0.8,
+      "star_body_edge_radius": 1.2,
+      "star_face_eye_height_radius": 4.3,
+      "star_face_eye_spacing": 20,
+      "star_face_eye_z": 106,
+      "star_face_depth": 1.2,
+      "star_face_eye_edge_radius": 1,
+      "star_face_mouth_z": 99.5,
+      "star_face_mouth_span": 9,
+      "star_face_mouth_dip": 2.2,
+      "star_face_mouth_width": 0.9,
+      "star_face_mouth_edge_radius": 0.35,
+      "star_sprinkles_radius": 1.9,
+      "star_sprinkles_depth": 1.4,
+      "star_sprinkles_edge_radius": 1,
+      "star_sprinkles_upper_left_x": -30.55,
+      "star_sprinkles_upper_left_z_offset": 26.76,
+      "star_sprinkles_lower_left_x": -45.09,
+      "star_sprinkles_lower_left_z_offset": 1.75,
+      "star_sprinkles_upper_right_x": 32.29,
+      "star_sprinkles_upper_right_z_offset": 26.76,
+      "star_pink_confetti_radius": 1.9,
+      "star_pink_confetti_depth": 1.4,
+      "star_pink_confetti_edge_radius": 1,
+      "star_pink_confetti_upper_left_x": -41.02,
+      "star_pink_confetti_upper_left_z_offset": 19.78,
+      "star_pink_confetti_lower_left_x": -43.05,
+      "star_pink_confetti_lower_left_z_offset": -25.31,
+      "star_pink_confetti_right_x": 45.09,
+      "star_pink_confetti_right_z_offset": 11.05,
+      "star_gold_confetti_radius": 1.9,
+      "star_gold_confetti_depth": 1.4,
+      "star_gold_confetti_edge_radius": 1,
+      "star_gold_confetti_left_x": -38.98,
+      "star_gold_confetti_left_z_offset": -11.35,
+      "star_gold_confetti_right_x": 42.18,
+      "star_gold_confetti_right_z_offset": -25.31,
+      "star_green_confetti_radius": 1.9,
+      "star_green_confetti_depth": 1.4,
+      "star_green_confetti_edge_radius": 1,
+      "star_green_confetti_right_x": 43.35,
+      "star_green_confetti_right_z_offset": -6.11
+    },
+    "corners": {
+      "corner_offset": 74,
+      "corner_width": 14,
+      "corner_lower_height": 22,
+      "corner_upper_z": 148,
+      "corner_upper_height": 14,
+      "corner_plan_radius": 4,
+      "corner_edge_radius": 3,
+      "corner_host_width": 150,
+      "corner_host_radius": 18,
+      "corner_upper_host_width": 158,
+      "corner_upper_host_radius": 22,
+      "corner_lower_fit_width": 160,
+      "corner_lower_fit_radius": 23,
+      "corner_upper_outward_growth": 1,
+      "corner_guard_depth": 4,
+      "corner_guard_seam_radius": 0.6,
+      "corner_guard_upper_top_radius": 3,
+      "pink_corners_depth": 4,
+      "pink_corners_seam_radius": 1.2,
+      "pink_corners_upper_top_radius": 3,
+      "pink_corners_inward_growth": 1.5,
+      "pink_corners_upper_extension": 8,
+      "pink_corners_outward_growth": 1.5
+    }
+  }
+}

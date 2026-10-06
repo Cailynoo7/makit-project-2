@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "visual_draft",
+  "summary": "150 × 150 × 180 mm square desktop waste bin with four reference-matched decorated faces.",
+  "required_interfaces": [
+    {"id": "open_cavity", "kind": "internal_fit", "description": "Open top and usable waste cavity", "source": "user_requested", "required": true},
+    {"id": "outer_envelope", "kind": "external_fit", "description": "150 × 150 × 180 mm outside dimensions", "source": "user_requested", "required": true}
+  ],
+  "external_references": [
+    {"id": "perspective", "source": "user_requested", "description": "Perspective styling reference", "path": "product/references/uploads/20261005T064253851Z-1-1.png"},
+    {"id": "four_faces", "source": "user_requested", "description": "Four face styling reference", "path": "product/references/uploads/20261005T064253851Z-2-image.png"}
+  ],
+  "assembly_story": {"installation": "Place the bin upright on a desk", "maintenance": "Empty and wipe through the open top", "user_access": ["top opening"]},
+  "cad": {"requirement": "required", "designs": [{"role": "waste_bin", "design_id": "square_bin", "description": "Decorated open-top desktop bin", "delivery_target": "visual_review", "required_formats": ["step"], "interface_ids": ["open_cavity", "outer_envelope"], "reference_ids": ["perspective", "four_faces"]}]},
+  "open_questions": []
+}

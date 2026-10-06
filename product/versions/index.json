@@ -1,0 +1,236 @@
+{
+  "versions": [
+    {
+      "name": "1.0",
+      "revision": "24f469df8aad2bb5bb57be4fbc05fd9cb4b701943e3c7820b114d02b6183327d",
+      "snapshot": "1.0.zip"
+    },
+    {
+      "name": "1.1",
+      "revision": "fe9149059cf7cb53f1fdc84b9e2414283b210d26e812c6e104f42381b3f05606",
+      "snapshot": "1.1.zip"
+    },
+    {
+      "name": "1.2",
+      "revision": "08023b17421a494b0cf6ad8ce406471277eacdd1cd5598d50b5dbda934773a32",
+      "export_id": "export-37962ca193e30d4d03e1cfae48822033",
+      "snapshot": "1.2.zip"
+    },
+    {
+      "name": "1.3",
+      "revision": "3106794d44d5b7ce9697f2dc37e65bf57bfb71a10a70564ce74a238775437c9d",
+      "export_id": "export-012d11ea8d4318b0c98c9a0675b8b2cf",
+      "snapshot": "1.3.zip"
+    },
+    {
+      "name": "1.4",
+      "revision": "8991bd260d1cf413502a680fdd26bc999d13f0b89592e148df6e4884175d6ae4",
+      "export_id": "export-3cf56dc9e58115e9beeb8641acc80f40",
+      "snapshot": "1.4.zip"
+    },
+    {
+      "name": "1.5",
+      "revision": "bb7922bc491c74f5a3747a97f1844976f04ea8ec968a4c8225415b00b7d8dfd5",
+      "export_id": "export-44d9193f84a5ade46251b6fad5803a33",
+      "snapshot": "1.5.zip"
+    },
+    {
+      "name": "1.6",
+      "revision": "07063aee3576e05048b5c44e6b4de51b2a270bb340d8aca757dadb6b7a49256c",
+      "export_id": "export-b1451e0a0835db623779aa39abd36008",
+      "snapshot": "1.6.zip"
+    },
+    {
+      "name": "1.7",
+      "revision": "698b1ecced0331519674d2c90b3847a9af0fd13c2e377d04f3f4e82c294df3d4",
+      "export_id": "export-b67e5eef4e715fba41f94c7082c312d4",
+      "snapshot": "1.7.zip"
+    },
+    {
+      "name": "1.8",
+      "revision": "9c4c0020c4ca5d39661961a45276c4242bcb1883408ca57e0b0b449627306fed",
+      "export_id": "export-6a02f18352f62ff4f1ea1449feeb1b6b",
+      "snapshot": "1.8.zip"
+    },
+    {
+      "name": "1.9",
+      "revision": "b1ec097b0496b6ffe22b8571de80d810555635e5193bb482dd1bcd22afb877fb",
+      "export_id": "export-ea68cc7a2aea31c8e21757c7bf6678c2",
+      "snapshot": "1.9.zip"
+    },
+    {
+      "name": "1.10",
+      "revision": "dbfb9e6f91b98479643a742ba96d980a0907d10c9624d266066596e6f1f728ed",
+      "export_id": "export-a1b7ff04957a47d4971bc4cb83dcbdbd",
+      "snapshot": "1.10.zip"
+    },
+    {
+      "name": "1.11",
+      "revision": "0e01fd35927816b7bc1b2c3ecfa3be784c8eb87fe210ac2d7b64833523dadfe1",
+      "export_id": "export-acc67a9037ae330bc2390c8ea745c0e6",
+      "snapshot": "1.11.zip"
+    },
+    {
+      "name": "1.12",
+      "revision": "f97f910a8e50acbe6815c68f5cbc69530a52843454aba019008fac1b5b02031d",
+      "export_id": "export-62255e286552c9b57340d6bf134dec52",
+      "snapshot": "1.12.zip"
+    },
+    {
+      "name": "1.13",
+      "revision": "4f769be21728bb6ba92216ec387c9b851ac3bbeb3ee90c46a0b7616df6b58537",
+      "export_id": "export-88f58f7efdf54cabccc5ac63e242b680",
+      "snapshot": "1.13.zip"
+    },
+    {
+      "name": "1.14",
+      "revision": "e4fc30a1bc542aeb0e6ccb3c37bd4568a82dc01df0d47aeafa0b34a9fe61b109",
+      "export_id": "export-9284dabd4425a6a4cbdb4bcf866130ed",
+      "snapshot": "1.14.zip"
+    },
+    {
+      "name": "1.15",
+      "revision": "a1001d351850843714279e8e535f5a0c7c9792c2a51535ec29c3e9900c32deec",
+      "export_id": "export-8609c4ffd893dafc985ea20bb7317e1e",
+      "snapshot": "1.15.zip"
+    },
+    {
+      "name": "1.16",
+      "revision": "fe18a8bf616ac1c40b23eb7bcc900d637fc1c68e60efd282afd62c28296b4e86",
+      "export_id": "export-0bef7995bca91a0c547cc78ba37fae4c",
+      "snapshot": "1.16.zip"
+    },
+    {
+      "name": "1.17",
+      "revision": "e8ce2fb6c84c1166f8e6203d4a2b506177250aacc8a75b9c00ab01a156f9cea5",
+      "export_id": "export-47fd10596f363c3fcd86c7b84874d5fb",
+      "snapshot": "1.17.zip"
+    },
+    {
+      "name": "1.18",
+      "revision": "e94c66a02cae12467fdfaa8a1eb023f5a6fee2fbc06a780f8ec14ad216caae5b",
+      "export_id": "export-f1673ab3a309e2f65c69e73ae5d7bb15",
+      "snapshot": "1.18.zip"
+    },
+    {
+      "name": "1.19",
+      "revision": "49bc4aa9a0ff2ffd6bbd11ef806fcf973bc978f756b1b284188d8addd63f6dcc",
+      "export_id": "export-d474ef91fa240d2278748e78ad1387df",
+      "snapshot": "1.19.zip"
+    },
+    {
+      "name": "1.20",
+      "revision": "c8bb6ba5403a7d35a27e312a01a82e8a83a8db3ef40ce8eef345fb56996977b5",
+      "export_id": "export-88f63aeb9a70d83520d22e8f7f813439",
+      "snapshot": "1.20.zip"
+    },
+    {
+      "name": "1.21",
+      "revision": "d13d6f7d83588f2980a103bcaae5beae9eb2b302f4e1091f1ed624c791201ee6",
+      "export_id": "export-1fee19ab0319f04146f4bb181e8f285b",
+      "snapshot": "1.21.zip"
+    },
+    {
+      "name": "1.22",
+      "revision": "39c6c38d8506ed5324732a3a35c37c4ac691e35445a3e7c848b1eb83f039ed96",
+      "export_id": "export-d154386de3f8c9a90a32dfc102643f5e",
+      "snapshot": "1.22.zip"
+    },
+    {
+      "name": "1.23",
+      "revision": "5cda831600423c0e4c1fd72cbdf7eb1463a0b3c37c615ac0b218a7549f261c39",
+      "export_id": "export-9214c07e87295b3b0725cc234002be57",
+      "snapshot": "1.23.zip"
+    },
+    {
+      "name": "1.24",
+      "revision": "4fa03514d95354db99aeb310a06d8d65d45261feb875ce28c285a1f7a0657702",
+      "export_id": "export-edc58e30fee42516071905a916864916",
+      "snapshot": "1.24.zip"
+    },
+    {
+      "name": "1.25",
+      "revision": "e20b67f0309ad804a8b3b6d278106998dd5b4d8c1dfc8862bddb63f600173b2e",
+      "export_id": "export-4ea88d6250b80b58465a8f1bca914d5b",
+      "snapshot": "1.25.zip"
+    },
+    {
+      "name": "1.26",
+      "revision": "1a6cd77f9930dce405727dbd21098784e3f76b10ab62694cba90dcb229dc20e6",
+      "export_id": "export-537c3759bf18cb004eef7c3838640605",
+      "snapshot": "1.26.zip"
+    },
+    {
+      "name": "1.27",
+      "revision": "a478db17f20108301c7ac0762591294087c04a6e95f27d5d149d84bc0c311054",
+      "export_id": "export-c80e17ccf4fc089bf78d0938f2c7cbf5",
+      "snapshot": "1.27.zip"
+    },
+    {
+      "name": "1.28",
+      "revision": "3ee613763f20495cb88e5ae0f9e33019654a654c551794eff18878e4b9af00e2",
+      "export_id": "export-bb9617d32b5fc0e205cc78d7e2cf3631",
+      "snapshot": "1.28.zip"
+    },
+    {
+      "name": "1.29",
+      "revision": "d8bf5f2e7ef77444c578cc64be8ebe815452b500a0dc4c67f5a0be485075becb",
+      "export_id": "export-002944add045f27e00504cb578ce0e91",
+      "snapshot": "1.29.zip"
+    },
+    {
+      "name": "1.30",
+      "revision": "e3a2e665dbe5cde3d0ff2b13d52ef169d92bbe8cece0d8e05a68d41b7aebbe7a",
+      "export_id": "export-40416ad965b6d77c72fb6cffa8c83f65",
+      "snapshot": "1.30.zip"
+    },
+    {
+      "name": "1.31",
+      "restored_from": "1.28",
+      "revision": "3eb282f3ca601de336168f29b9fb6b22bae099ccd4c212a962f57f1736a6e165",
+      "export_id": "export-98e99170c31183ddc06635c5961abdcf",
+      "snapshot": "1.31.zip"
+    },
+    {
+      "name": "1.32",
+      "revision": "abe00f5eef89c0c22d994a4cc6848c9135f27feb9b865660cb27bcf165dc1db9",
+      "export_id": "export-abe6a2a81c89382a5d71c5ce49464fe6",
+      "snapshot": "1.32.zip"
+    },
+    {
+      "name": "1.33",
+      "revision": "dfdd27f845e83b08fefbf7355bd99b4eec5dd2785f701269e437e0d5b79153f3",
+      "export_id": "export-7523544e111b9a170a20a4d9a243a2aa",
+      "snapshot": "1.33.zip"
+    },
+    {
+      "name": "1.34",
+      "restored_from": "1.32",
+      "revision": "abe00f5eef89c0c22d994a4cc6848c9135f27feb9b865660cb27bcf165dc1db9",
+      "export_id": "export-b37fb1cbbd5949b1ef0aab645b42385b",
+      "snapshot": "1.34.zip"
+    },
+    {
+      "name": "1.35",
+      "revision": "b1af591fd6525b2b6cf4ac74a18921010a2e03707da3e4131fbd8fa7c7e96d4c",
+      "export_id": "export-20e7f9d4a94112bc2c44c8b0bfb13358",
+      "snapshot": "1.35.zip"
+    },
+    {
+      "name": "1.36",
+      "revision": "f0d7309c197c9238d994bab069b0dbb43b6bd1465de4b91837051c711d8ebaa4",
+      "export_id": "export-36181cc709ad00289901ebb49546a210",
+      "snapshot": "1.36.zip"
+    },
+    {
+      "name": "1.37",
+      "revision": "35fa8c926e6a9dcf6e3546c9075ce55d074ef48a267ba98fc87573d310239c19",
+      "export_id": "export-250ea264ea6ba65da55a2fa49b4c6382",
+      "snapshot": "1.37.zip"
+    }
+  ],
+  "current_name": "1.37",
+  "numbering": "Numeric only; increment minor version once after each completed geometry update and handoff export",
+  "current_revision": "35fa8c926e6a9dcf6e3546c9075ce55d074ef48a267ba98fc87573d310239c19",
+  "current_export_id": "export-250ea264ea6ba65da55a2fa49b4c6382"
+}

@@ -1,0 +1,147 @@
+{
+  "designId": "square_bin",
+  "revision": "35fa8c926e6a9dcf6e3546c9075ce55d074ef48a267ba98fc87573d310239c19",
+  "schemaVersion": 2,
+  "exportId": "export-250ea264ea6ba65da55a2fa49b4c6382",
+  "generatedAt": "2026-10-06T11:37:30.877Z",
+  "designSha256": "17554d29e254b4fac72e7cdc87a14db61e6769520c6a068498732f2cce42e174",
+  "role": "waste_bin",
+  "stateHash": "30eecd7336294bb7a01ac38b51a4975328de86e03ea62ef8f29b22ac01c9dc4a",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "square_bin",
+    "role": "waste_bin",
+    "design": {
+      "revision": "35fa8c926e6a9dcf6e3546c9075ce55d074ef48a267ba98fc87573d310239c19",
+      "designSha256": "bb75373228ca329f23e549d149075fcbf6000a5c75a643197875f9449d8439f4",
+      "manifestSha256": "13229e1fc6949ba1e523381dfdbe6429602698fa146041a0757feeaeb7cac64f",
+      "stepSha256": "fb08b144bff0ca1911d033016219aa0711d0f49991ca8d4325cddde0904d2f83",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/square_bin/README.md",
+      "sha256": "2ec6b534f0e55fe52d336913b493cf4d47fef6eb22dce2a879637bfaa4554f6f"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "96f1900e412b1d171cd3c3a1972026a22853d645b8b0e1144d7bdf80ff44cc0f",
+      "designRequirementSha256": "38c7ad72b7f0db3aa040fc92527b7a9180e6cc32e6e3cdcb84404f959de5f589",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "four_faces",
+          "path": "product/references/uploads/20261005T064253851Z-2-image.png",
+          "sha256": "bfac56e16b6bd92dbdaaefb20d58776df8f295bee1fdda6c76a22097df3e5e82",
+          "sizeBytes": 2755608
+        },
+        {
+          "role": "external-reference",
+          "id": "perspective",
+          "path": "product/references/uploads/20261005T064253851Z-1-1.png",
+          "sha256": "362dce887b7d125d067a3d41421677e1b3d3651dda0236a489aadc4fba69cfe7",
+          "sizeBytes": 2793363
+        }
+      ]
+    },
+    "delivery": {
+      "target": "visual_review",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "30eecd7336294bb7a01ac38b51a4975328de86e03ea62ef8f29b22ac01c9dc4a"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "13229e1fc6949ba1e523381dfdbe6429602698fa146041a0757feeaeb7cac64f",
+    "stepSha256": "fb08b144bff0ca1911d033016219aa0711d0f49991ca8d4325cddde0904d2f83"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "ee3801d485ce9c36c94064620fc14c1fad29a20395abe3cd26ac51a72ac105d1"
+  },
+  "sourceHashes": {
+    "base/base": "437287392f97ea893037496e0a6fb42b8a1c864146eafdcd3f7e07cf28a146ac",
+    "body/body": "f4c879db86aada36055b4653b0d796b721449f5df251817d1eaabe363dc4bff9",
+    "corners/corners": "0420d4b040d55f3cd9027409be086e39d226472f89cce79a97224b1396e3f16b",
+    "flower/flower": "4b8dc5952f59af25b7e75fa3ac4283fcc94d818828f5f33d0f9dc5ef05fcb799",
+    "mushroom/mushroom": "a0bd1a1d408cce2d2acd038844dc9a75396a19a364be7e49c12daae4f10bca74",
+    "posts/posts": "e0c47a688dd12d8858142658da9dffe379b4c23f8a1365f08a5f0ba4d9f64210",
+    "rim/rim": "456766510ae5e9b83d575fb94747f102b75a413bcf23c52dc419a6408720a1e9",
+    "smile_face/smile_face": "bacc4787b844ce6a0677924111664e174c8b112933ab099346a3ec01b62852ce",
+    "star/star": "6ae2c48ec1de77dc998fed602a1cef836eb6d205847c38c355118eec6460c5da",
+    "trim/trim": "f3639f1c24415714a0ba0a1a73691046f8573b3a4f7a62aaac502cf64d5a6da9"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "blue_posts": "db8457ab3d5f1d7116341ffbb1d8b7bac3e73f61252ea64ddc41c2659a1f91e5",
+    "brown_base": "7af88b5d72b8bf4b15250316dc00a253bd6862052f2180c52eb50f481cbfa738",
+    "cream_outer_shell": "3e18b009fb64749fd49f7a142302650122e3901510b18825ed1b4c55e7e9305a",
+    "face_blue_pin": "9e5449ad3ed8bda45f6ea4018769e3d43eeb089c9da9d1249f53fff9cb73e2a3",
+    "face_border": "28ce08c205640a3e99381a73c1ce8aca1f4e0f6e5bed418d86970d2280b0b71b",
+    "face_cheeks": "0eda3d3179f4bdf5ee457aa693e6179264ea45469513c65a80874ff1cc579be3",
+    "face_features": "d4cece6b3f03e67c4fc19a34a542dea7aa9cea7d2b3b53a127c6cf9fd157f680",
+    "face_orange_pin": "4d13e8d1083f20c70382464a77ad68a52f4a80d53d3118f229f24d2632bd07ae",
+    "face_panel": "e9996c631f7b97ae248472d58a198bb145140ba1dda045dd26d4b90683c13da4",
+    "flower_center": "aaf8541b946b0caf4fa691eca8e43a7b2ea4c2733561a5f6471d33722fb40ec0",
+    "flower_petals": "6ab149f9e89efbbf8fb9094caff3d09d3600e7b26e209f082f1c243442f74a1e",
+    "green_trim": "e499c03df019ca3ba91874d4e0e01a148375b77ed1dee86a6037b21d9ecea539",
+    "mushroom_blue_dots": "b21968dab45597bfbc51fa33714a9294b6239a06b6781f211e712cb55226a5ee",
+    "mushroom_cap": "0a15b154003cfd0528de21297b3ff799c2da3eb7e9deb6461b0ca673f527cfa3",
+    "mushroom_cap_outline": "fa9f8cf7589a09b5f341860b9010f6d293771693c5af4266f99798ecfefa6a69",
+    "mushroom_gill": "49edb394c0de8cc72662514e3ef60f2def7d30f746802dc4834c3db5a4c51dc3",
+    "mushroom_orange_dot": "f9c9806e224fd5ae18d701b968b36c373e15cd67192363c1eac30d62d73b4ea2",
+    "mushroom_spots": "2657fe30651d0a303822074f47148b03b0eea051bb692dfd29b2bea5cb5124ab",
+    "mushroom_stars": "cffe801043216effd48a8ee90db5904c5de80808d26ca0bea3d78fa184cc64d1",
+    "mushroom_stem": "b3f79f7fd30bb7fa21602e0418920dd9fa394637afe080a27c9ba9df1ea1fc65",
+    "mushroom_stem_border": "53fa3da08839fb669fb66acdf69f440ef2b3b2b01d5cb079d59cd42e05e6d889",
+    "pink_corners": "f3102586051dea8af65e7c43e94e47670044c00f049bd20ce95377685bdec8a0",
+    "pink_rim": "27aa99158af11d78323615577b57d53ea1e462c635b09f34d10e1d5e6725c01a",
+    "shell": "a4befaa6d7c3e7346414f0c0beb080453d9a0f417134d4f4421a551aa3dc43b1",
+    "star_body": "4eb32dbd2c82ee6ef075923adb5d571535f247e5d6595bcc609d6aafb7eb5260",
+    "star_face": "4a76efdfd3189bb6c925075c433aaf1d1918715ed29f704e2ec43243db3481e0",
+    "star_gold_confetti": "be51629c589132454bb39a30bf965d77a485606416e280c8b3d392367fcb7542",
+    "star_green_confetti": "5e8bf866c56f47b990ac67d990f33cebdf8ad89da64a17fded97333ada1f1188",
+    "star_outline": "318677ae01d48dbcb599ea69d2868f82e6ab123ed02e08984dbcf11a252563c7",
+    "star_pink_confetti": "05d52b627d85e3698bfbe9e784ac55727460e0aebac27a59099d190e0ff737d3",
+    "star_sprinkles": "9f5083e44cbbce236f46a8a11b66d8f1365711b85be97400dcd6131505335c60"
+  },
+  "runtime": {
+    "manifestHash": "98cec734545be4d93d19c83d6d06b9b2bf2f3d7d1be0992e7fd04cc2f3bdec70",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "eab6dc65ad496ee6860f3f3d9d8c9d9a5569c9c052c59081052894a8130ce5cf"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/square_bin/releases/export-250ea264ea6ba65da55a2fa49b4c6382/model.step",
+      "role": "model/step",
+      "sha256": "fb08b144bff0ca1911d033016219aa0711d0f49991ca8d4325cddde0904d2f83",
+      "sizeBytes": 10907545
+    }
+  ],
+  "interference": {
+    "summary": "0 interfering pairs, 30 undetermined",
+    "counts": {
+      "objects": 31,
+      "pairs": 465,
+      "exact": 6,
+      "cached": 9,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 30
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "fd6a27115323f92a9743dcfd0df66511",
+    "projectId": "7871b5f4-a151-4a8b-9f54-90e209240471",
+    "receiptPath": "manufacturing/square_bin/releases/export-250ea264ea6ba65da55a2fa49b4c6382/receipt.json",
+    "payloadSha256": "9135064dc049fac2f249afcf6fcc2270be22dfebee17d2720f73a41349fe49cc",
+    "mac": "ddecfb62435b0caaec79dd123795aaf6470d391da3d0c81d568610335ad68fd9"
+  },
+  "status": "handoff"
+}

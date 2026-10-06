@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "bom_ready": true,
+  "requirements_digest": "0d6b7abd5e7387676656005c05e26fb173ee63deb56989b731fb12221be2be6d",
+  "items": [
+    {
+      "id": "square_bin_multicolor_assembly",
+      "role": "custom_cad_product",
+      "name": "童趣桌面方形垃圾筒 1.37 多色装饰总成",
+      "quantity": 1,
+      "source": "project_cad"
+    }
+  ]
+}
