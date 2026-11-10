@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "file": "models/square_bin.glb",
+      "design": "square_bin"
+    }
+  ]
+}

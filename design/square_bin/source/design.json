@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "units": "mm",
-  "coordinateFrame": "replicator-world-z-up",
+  "coordinateFrame": "makit-world-z-up",
   "targets": [
     {
       "id": "body",
@@ -146,12 +146,12 @@
   ],
   "objects": [
     {
-      "id": "cream_outer_shell",
+      "id": "shell",
       "target": "body",
-      "label": "Cream upper outer shell",
+      "label": "Cream inner box",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "3e18b009fb64749fd49f7a142302650122e3901510b18825ed1b4c55e7e9305a",
+      "shapeHash": "a9c3a147d87a30ecd78c468c2ee21a5362cc257c864c273c8e32235f78c12872",
       "transform": {
         "positionMm": [
           0,
@@ -173,12 +173,12 @@
       "datums": []
     },
     {
-      "id": "shell",
+      "id": "cream_outer_shell",
       "target": "body",
-      "label": "Cream inner box",
+      "label": "Cream upper outer shell",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "a4befaa6d7c3e7346414f0c0beb080453d9a0f417134d4f4421a551aa3dc43b1",
+      "shapeHash": "4518fc2c16d6838a80c3fce968223f97bb4600331e3c6ac07c0e211812a21131",
       "transform": {
         "positionMm": [
           0,
@@ -205,7 +205,7 @@
       "label": "Rounded pink top rim",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "27aa99158af11d78323615577b57d53ea1e462c635b09f34d10e1d5e6725c01a",
+      "shapeHash": "9bea24869a90ea92b032149d74393065ed37899ab9a21048cfa468da2e47f664",
       "transform": {
         "positionMm": [
           0,
@@ -232,7 +232,7 @@
       "label": "Brown brick cladding",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "7af88b5d72b8bf4b15250316dc00a253bd6862052f2180c52eb50f481cbfa738",
+      "shapeHash": "d05606c9858fb61ccd7606248e6311704d8b5948c7b6eb7a63d68547468d0b81",
       "transform": {
         "positionMm": [
           0,
@@ -259,7 +259,7 @@
       "label": "Inset blue corner strips",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "db8457ab3d5f1d7116341ffbb1d8b7bac3e73f61252ea64ddc41c2659a1f91e5",
+      "shapeHash": "3c950f720873f04a92ffd29bf83959eff6a053fc100e64e3c53e38251d0926fe",
       "transform": {
         "positionMm": [
           0,
@@ -286,38 +286,11 @@
       "label": "Continuous scalloped trim",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "e499c03df019ca3ba91874d4e0e01a148375b77ed1dee86a6037b21d9ecea539",
+      "shapeHash": "b36d74f80b6f3dd9ac52aa35ad745198275ce7b1cae7c8e19ff8a2d32b548fe7",
       "transform": {
         "positionMm": [
           0,
           0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "face_blue_pin",
-      "target": "smile_face",
-      "label": "Blue plaque pin",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "9e5449ad3ed8bda45f6ea4018769e3d43eeb089c9da9d1249f53fff9cb73e2a3",
-      "transform": {
-        "positionMm": [
-          0,
-          -6,
           0
         ],
         "rotationDeg": [
@@ -340,88 +313,7 @@
       "label": "Rounded gold plaque rim",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "28ce08c205640a3e99381a73c1ce8aca1f4e0f6e5bed418d86970d2280b0b71b",
-      "transform": {
-        "positionMm": [
-          0,
-          -6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "face_cheeks",
-      "target": "smile_face",
-      "label": "Round pink cheeks",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "0eda3d3179f4bdf5ee457aa693e6179264ea45469513c65a80874ff1cc579be3",
-      "transform": {
-        "positionMm": [
-          0,
-          -6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "face_features",
-      "target": "smile_face",
-      "label": "Rounded heart eyes and smile",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "d4cece6b3f03e67c4fc19a34a542dea7aa9cea7d2b3b53a127c6cf9fd157f680",
-      "transform": {
-        "positionMm": [
-          0,
-          -6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "face_orange_pin",
-      "target": "smile_face",
-      "label": "Orange plaque pin",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "4d13e8d1083f20c70382464a77ad68a52f4a80d53d3118f229f24d2632bd07ae",
+      "shapeHash": "a6d7f197a0096f1d3f39e03614ff46c1c50d57b213d831364c77775653f9b733",
       "transform": {
         "positionMm": [
           0,
@@ -448,7 +340,7 @@
       "label": "Soft yellow face plaque",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "e9996c631f7b97ae248472d58a198bb145140ba1dda045dd26d4b90683c13da4",
+      "shapeHash": "a1a740414c1992bf994b458542e4ae604bbee61c2e578798bee21f15e8b36d17",
       "transform": {
         "positionMm": [
           0,
@@ -470,16 +362,97 @@
       "datums": []
     },
     {
-      "id": "flower_center",
-      "target": "flower",
-      "label": "Inset yellow flower centre",
+      "id": "face_features",
+      "target": "smile_face",
+      "label": "Rounded heart eyes and smile",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "aaf8541b946b0caf4fa691eca8e43a7b2ea4c2733561a5f6471d33722fb40ec0",
+      "shapeHash": "a15a3933b82a5babec19a1e3accfa3ba97fd76419664d97961b38aa0247a1036",
       "transform": {
         "positionMm": [
-          6,
           0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_cheeks",
+      "target": "smile_face",
+      "label": "Round pink cheeks",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "1b9f9318a0ad72fe26263c8adf750fa16a8ee97280e71bf7386d6a6d9d165246",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_blue_pin",
+      "target": "smile_face",
+      "label": "Blue plaque pin",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "8ddf9a8a5207960885b10be7ec32b5e37c9bee687bea1928765858c6b043a028",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "face_orange_pin",
+      "target": "smile_face",
+      "label": "Orange plaque pin",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "486f24d4fbc9eb503fb60e3388327bf04d0c837280b8ede24d39465f36ee9e53",
+      "transform": {
+        "positionMm": [
+          0,
+          -6,
           0
         ],
         "rotationDeg": [
@@ -502,7 +475,7 @@
       "label": "Single-piece five-petal flower",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "6ab149f9e89efbbf8fb9094caff3d09d3600e7b26e209f082f1c243442f74a1e",
+      "shapeHash": "355db5e640a00e6e309d6ca8cfc839d75f5b7c7d2d36e733787e00b7dbcb8ed7",
       "transform": {
         "positionMm": [
           6,
@@ -524,43 +497,16 @@
       "datums": []
     },
     {
-      "id": "mushroom_blue_dots",
-      "target": "mushroom",
-      "label": "Three rounded blue dots",
+      "id": "flower_center",
+      "target": "flower",
+      "label": "Inset yellow flower centre",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "b21968dab45597bfbc51fa33714a9294b6239a06b6781f211e712cb55226a5ee",
+      "shapeHash": "e3abf6b537c28334a036779d3865934a2f7a5044992042f6ca1b4c597ef681e3",
       "transform": {
         "positionMm": [
-          0,
           6,
-          0
-        ],
-        "rotationDeg": [
           0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_cap",
-      "target": "mushroom",
-      "label": "Smooth red mushroom cap",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "0a15b154003cfd0528de21297b3ff799c2da3eb7e9deb6461b0ca673f527cfa3",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
           0
         ],
         "rotationDeg": [
@@ -583,142 +529,7 @@
       "label": "Rounded pink cap outline",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "fa9f8cf7589a09b5f341860b9010f6d293771693c5af4266f99798ecfefa6a69",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_gill",
-      "target": "mushroom",
-      "label": "Cream oval underside",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "49edb394c0de8cc72662514e3ef60f2def7d30f746802dc4834c3db5a4c51dc3",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_orange_dot",
-      "target": "mushroom",
-      "label": "Rounded orange dot",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "f9c9806e224fd5ae18d701b968b36c373e15cd67192363c1eac30d62d73b4ea2",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_spots",
-      "target": "mushroom",
-      "label": "Three rounded white spots",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "2657fe30651d0a303822074f47148b03b0eea051bb692dfd29b2bea5cb5124ab",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_stars",
-      "target": "mushroom",
-      "label": "Two soft yellow stars",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "cffe801043216effd48a8ee90db5904c5de80808d26ca0bea3d78fa184cc64d1",
-      "transform": {
-        "positionMm": [
-          0,
-          6,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "mushroom_stem",
-      "target": "mushroom",
-      "label": "Flared rounded yellow stem",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "b3f79f7fd30bb7fa21602e0418920dd9fa394637afe080a27c9ba9df1ea1fc65",
+      "shapeHash": "a2e4f2cd212bcb39422344fa2e389707ca0493d5bf3357a47a07ef945db10873",
       "transform": {
         "positionMm": [
           0,
@@ -745,11 +556,227 @@
       "label": "Rounded pink stem outline",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "53fa3da08839fb669fb66acdf69f440ef2b3b2b01d5cb079d59cd42e05e6d889",
+      "shapeHash": "188e99f76e4da4fc6362c906c592e6b7fa9fa03e4efcc896a8a9a276634f0791",
       "transform": {
         "positionMm": [
           0,
           6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_cap",
+      "target": "mushroom",
+      "label": "Smooth red mushroom cap",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "a2f2cb173e8caab267adb7a86e2bc99e0885f74e74c6a21a3a757548cb1cc054",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_gill",
+      "target": "mushroom",
+      "label": "Cream oval underside",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "43d01da479d87b95bfd070892e34b98ef3f312ca04a5640f973e23a4a5131388",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_stem",
+      "target": "mushroom",
+      "label": "Flared rounded yellow stem",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "2fdc99dbb54a575cf2665f6e541addccfeeca1ca034962b6aa04ff5ca116b242",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_spots",
+      "target": "mushroom",
+      "label": "Three rounded white spots",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "ef9f389184c41ae654c51247b36c98e9374a3139b17554562ba4da199ffd119b",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_stars",
+      "target": "mushroom",
+      "label": "Two soft yellow stars",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "cbc114c2ab7b30bcf964eb7de27a93f881745929114ce1eaf00cb53152b2eef7",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_blue_dots",
+      "target": "mushroom",
+      "label": "Three rounded blue dots",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "9f42515879839e6c04e4e3cd08aa76194059a22e379deacb805e4cdfe987c6f4",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mushroom_orange_dot",
+      "target": "mushroom",
+      "label": "Rounded orange dot",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "402eb01bf6cd28039201109e57ed5a0709b398904dce1b2abcd403c9e4df6012",
+      "transform": {
+        "positionMm": [
+          0,
+          6,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_outline",
+      "target": "star",
+      "label": "Fine golden star edge",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "489852dfeced267309e5c98d12793bb14b0be0b1db1bc5f241a307ca836759a5",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
           0
         ],
         "rotationDeg": [
@@ -772,7 +799,7 @@
       "label": "Soft rounded yellow star",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "4eb32dbd2c82ee6ef075923adb5d571535f247e5d6595bcc609d6aafb7eb5260",
+      "shapeHash": "5588c21ef617e47cd02a0a044ef901f6de9732d970b9aeb4d14be4c109809ca2",
       "transform": {
         "positionMm": [
           -6,
@@ -799,115 +826,7 @@
       "label": "Oval eyes and fine smile",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "4a76efdfd3189bb6c925075c433aaf1d1918715ed29f704e2ec43243db3481e0",
-      "transform": {
-        "positionMm": [
-          -6,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "star_gold_confetti",
-      "target": "star",
-      "label": "Yellow confetti",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "be51629c589132454bb39a30bf965d77a485606416e280c8b3d392367fcb7542",
-      "transform": {
-        "positionMm": [
-          -6,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "star_green_confetti",
-      "target": "star",
-      "label": "Green confetti",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "5e8bf866c56f47b990ac67d990f33cebdf8ad89da64a17fded97333ada1f1188",
-      "transform": {
-        "positionMm": [
-          -6,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "star_outline",
-      "target": "star",
-      "label": "Fine golden star edge",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "318677ae01d48dbcb599ea69d2868f82e6ab123ed02e08984dbcf11a252563c7",
-      "transform": {
-        "positionMm": [
-          -6,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "star_pink_confetti",
-      "target": "star",
-      "label": "Pink confetti",
-      "material": "pla",
-      "kind": "generated",
-      "shapeHash": "05d52b627d85e3698bfbe9e784ac55727460e0aebac27a59099d190e0ff737d3",
+      "shapeHash": "9ea27c63c6910f334195c46037cdb31fc796fc88099b2439d8ea846ae710353a",
       "transform": {
         "positionMm": [
           -6,
@@ -934,7 +853,88 @@
       "label": "Blue confetti",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "9f5083e44cbbce236f46a8a11b66d8f1365711b85be97400dcd6131505335c60",
+      "shapeHash": "c7bc2bc0545495d03ce6965de40f1d07e22d368f853e2ebec4a1e52041ecf059",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_pink_confetti",
+      "target": "star",
+      "label": "Pink confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "aee0c0c0d0c87c55d4bb398a6dca4824cf1a5fadb0d112668cd360929b78b578",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_gold_confetti",
+      "target": "star",
+      "label": "Yellow confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "40fd96572e688fdb683c6f52347bcdd2f1bc60cfd504082a26a03cdb4cf7f203",
+      "transform": {
+        "positionMm": [
+          -6,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "star_green_confetti",
+      "target": "star",
+      "label": "Green confetti",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "8b554bea99cf292228c1bd41a2d5e8b1f211f24c6730b9c749795cb21a1802ba",
       "transform": {
         "positionMm": [
           -6,
@@ -961,7 +961,7 @@
       "label": "Rounded pink corner guards",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "f3102586051dea8af65e7c43e94e47670044c00f049bd20ce95377685bdec8a0",
+      "shapeHash": "bd3998b51c24d090c8ba4184bcea71227104f69261c1b8ffec4e473c9e97c33b",
       "transform": {
         "positionMm": [
           0,
@@ -985,7 +985,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-10-06T11:37:30.877Z",
+  "updatedAt": "2026-11-09T01:24:51.584Z",
   "parameters": {
     "body": {
       "bin_width": 150,
